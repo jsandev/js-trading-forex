@@ -7,6 +7,7 @@ import HowWorks from '@/components/HowWorks.vue'
 import Banner from '@/components/Banner.vue'
 import Features from '@/components/Features.vue'
 import ContactForm from '@/components/ContactForm.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
@@ -19,5 +20,6 @@ import ContactForm from '@/components/ContactForm.vue'
     <Banner />
     <Features />
     <ContactForm />
+    <Footer />
   </main>
 </template>
