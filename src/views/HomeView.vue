@@ -4,6 +4,7 @@ import Header from '@/components/Header.vue'
 import Main from '@/components/Main.vue'
 import Courses from '@/components/Courses.vue'
 import HowWorks from '@/components/HowWorks.vue'
+import Banner from '@/components/Banner.vue'
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import HowWorks from '@/components/HowWorks.vue'
     <AboutUs />
     <Courses />
     <HowWorks />
+    <Banner />
   </main>
 </template>
