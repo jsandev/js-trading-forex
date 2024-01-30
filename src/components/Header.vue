@@ -4,7 +4,7 @@ import { Icon } from '@iconify/vue'
 </script>
 
 <template>
-  <header class="w-full z-10 bg-primary sticky top-0 h-[5rem] flex items-center">
+  <header id="header" class="w-full z-10 bg-primary sticky top-0 h-[5rem] flex items-center">
     <div
       class="w-full max-w-[76.5rem] mx-auto flex items-center justify-between px-[1.5rem] sm:px-[2rem] md:px-[3rem] lg:px-[4rem]"
     >
@@ -89,3 +89,18 @@ import { Icon } from '@iconify/vue'
     </div>
   </header>
 </template>
+
+<style>
+#header {
+  animation: blur linear both;
+  animation-timeline: scroll();
+  animation-range: 0 250px;
+}
+
+@keyframes blur {
+  to {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    background: #009d6b;
+  }
+}
+</style>
