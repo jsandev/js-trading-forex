@@ -3,6 +3,7 @@ import AboutUs from '@/components/AboutUs.vue'
 import Header from '@/components/Header.vue'
 import Main from '@/components/Main.vue'
 import Courses from '@/components/Courses.vue'
+import HowWorks from '@/components/HowWorks.vue'
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import Courses from '@/components/Courses.vue'
     <Main />
     <AboutUs />
     <Courses />
+    <HowWorks />
   </main>
 </template>
