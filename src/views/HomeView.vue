@@ -5,6 +5,7 @@ import Main from '@/components/Main.vue'
 import Courses from '@/components/Courses.vue'
 import HowWorks from '@/components/HowWorks.vue'
 import Banner from '@/components/Banner.vue'
+import Features from '@/components/Features.vue'
 </script>
 
 <template>
@@ -15,5 +16,6 @@ import Banner from '@/components/Banner.vue'
     <Courses />
     <HowWorks />
     <Banner />
+    <Features />
   </main>
 </template>
