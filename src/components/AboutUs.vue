@@ -19,7 +19,7 @@
     </div>
 
     <div class="rounded-[1.25rem] overflow-hidden">
-      <img class="w-full" src="../assets/images/about-us.webp" alt="Nosotros" />
+      <img loading="lazy" class="w-full" src="../assets/images/about-us.webp" alt="Nosotros" />
     </div>
   </section>
 </template>

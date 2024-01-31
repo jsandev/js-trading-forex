@@ -17,6 +17,7 @@
     >
       <div class="w-full max-w-[400px] lg:max-w-[38.75rem]">
         <img
+          loading="lazy"
           class="w-full object-cover"
           src="../assets/images/howworks.webp"
           alt="Como funciona el app"

@@ -28,6 +28,7 @@
         </div>
         <div class="w-full max-w-[18rem] md:max-w-[24rem]">
           <img
+            loading="lazy"
             class="w-full object-cover"
             src="../assets/images/news.webp"
             alt="Noticias de último momento"
@@ -39,6 +40,7 @@
       >
         <div class="w-full max-w-[10rem] md:max-w-[14.875rem]">
           <img
+            loading="lazy"
             class="w-full object-cover"
             src="../assets/images/certificate.png"
             alt="¡Al finalizar tu curso, certifícate!"

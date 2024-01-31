@@ -25,6 +25,7 @@
           class="absolute w-[10rem] md:w-[9rem] lg:w-[12rem] bottom-[-8.125rem] left-[50%] -translate-x-1/2"
         >
           <img
+            loading="lazy"
             class="w-full h-full object-cover"
             src="../assets/images/course1.jpg"
             alt="Introducción al Arte del Trading y Forex"
@@ -35,6 +36,7 @@
         class="relative order-1 w-full flex flex-col justify-end gap-[1.5rem] p-[1.5rem] overflow-hidden rounded-[1.25rem] xs:col-span-10 xs:pt-[5rem] xs:p-[1.875rem] md:col-span-7 md:order-2"
       >
         <img
+          loading="lazy"
           class="w-full absolute top-0 left-0 z-[-2] h-full object-cover object-center"
           src="../assets/images/course2.webp"
           alt="Bitcoin: Fundamentos y Oportunidades"
@@ -73,6 +75,7 @@
         </p>
 
         <img
+          loading="lazy"
           class="w-full absolute top-0 left-0 z-[-2] h-full object-cover object-center"
           src="../assets/images/course3.webp"
           alt="Bitcoin: Fundamentos y Oportunidades"
@@ -85,7 +88,11 @@
         class="bg-white order-4 w-full max-h-[20rem] md:h-auto flex flex-col items-center justify-center xs:col-span-10 rounded-[1.25rem] p-[1rem] overflow-hidden shadow-[2px_4px_60px_0px_rgba(0,0,0,0.15)] sm:col-span-5 md:col-span-3 md:px-[1.875rem]"
       >
         <div class="w-full max-w-[200px]">
-          <img src="../assets/images/course4.webp" alt="Análisis técnico para principiantes" />
+          <img
+            loading="lazy"
+            src="../assets/images/course4.webp"
+            alt="Análisis técnico para principiantes"
+          />
         </div>
         <h1 class="text-[1.25rem] text-center text-secondary">Trading Avanzado</h1>
       </div>
