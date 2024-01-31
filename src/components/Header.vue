@@ -1,5 +1,8 @@
 <template>
-  <header id="header" class="w-full z-10 bg-primary sticky top-0 h-[5rem] flex items-center">
+  <header
+    id="header"
+    class="w-full z-10 bg-primary sticky top-0 h-[3.5rem] md:h-[5rem] flex items-center"
+  >
     <div
       class="w-full max-w-[76.5rem] mx-auto flex items-center justify-between px-[1.5rem] sm:px-[2rem] md:px-[3rem] lg:px-[4rem]"
     >
