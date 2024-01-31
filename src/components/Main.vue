@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <div class="w-full absolute bottom-[-240px] left-0 h-[240px]">
+    <div class="w-full absolute bottom-[-220px] xs:bottom-[-240px] left-0 h-[240px]">
       <div
         class="absolute top-0 left-[50%] -translate-x-1/2 w-[1.5rem] h-[2.875rem] rounded-[1.75rem] border-[0.125rem] border-white animate-bounce -ml-[1rem] md:-ml-[2rem]"
       >
