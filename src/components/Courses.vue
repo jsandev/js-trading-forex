@@ -13,7 +13,7 @@
     </div>
 
     <div
-      class="w-full grid grid-cols-1 xs:grid-cols-10 auto-rows-auto sm:auto-rows-[20rem] lg:auto-rows-[26.25rem] gap-[1.875rem]"
+      class="w-full grid grid-cols-1 xs:grid-cols-10 auto-rows-auto sm:auto-rows-[20rem] lg:auto-rows-[22.5rem] gap-[1.875rem]"
     >
       <div
         class="bg-white order-3 relative w-full h-[20rem] md:h-auto xs:col-span-10 rounded-[1.25rem] px-[1rem] lg:px-[3.125rem] pt-[2.5rem] overflow-hidden shadow-[2px_4px_60px_0px_rgba(0,0,0,0.15)] sm:col-span-5 md:order-1 md:col-span-3"
@@ -85,7 +85,7 @@
         ></div>
       </div>
       <div
-        class="bg-white order-4 w-full max-h-[20rem] md:h-auto flex flex-col items-center justify-center xs:col-span-10 rounded-[1.25rem] p-[1rem] overflow-hidden shadow-[2px_4px_60px_0px_rgba(0,0,0,0.15)] sm:col-span-5 md:col-span-3 md:px-[1.875rem]"
+        class="bg-white order-4 w-full h-full flex flex-col items-center justify-center xs:col-span-10 rounded-[1.25rem] p-[1rem] overflow-hidden shadow-[2px_4px_60px_0px_rgba(0,0,0,0.15)] sm:col-span-5 md:col-span-3 md:px-[1.875rem]"
       >
         <div class="w-full max-w-[200px]">
           <img
