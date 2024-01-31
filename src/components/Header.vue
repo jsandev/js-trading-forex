@@ -10,18 +10,11 @@
         <RouterLink to="/" class="text-white text-[1.25rem] font-raleway font-bold">JS.</RouterLink>
       </div>
 
-      <button class="flex md:hidden">
+      <button class="flex md:hidden" @click="setOpen">
         <Icon icon="fe:bar" width="24" color="white" />
       </button>
 
-      <nav class="hidden md:flex items-center gap-[0.25rem]">
-        <Link href="/" title="Inicio" />
-        <Link href="/" title="Quiénes somos" />
-        <Link href="/" title="Cursos" />
-        <Link href="/" title="Cómo funciona" />
-        <Link href="/" title="Features" />
-        <Link href="/" title="Contáctanos" />
-      </nav>
+      <Menu :open="open" :on-close="setOpen" />
 
       <SocialNetwork :icon-size="24" class-name="hidden lg:flex" />
     </div>
@@ -29,10 +22,15 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
-import SocialNetwork from './SocialNetwork.vue'
-import Link from './Link.vue'
 import { Icon } from '@iconify/vue'
+
+import SocialNetwork from './SocialNetwork.vue'
+import Menu from './Menu.vue'
+
+const open = ref(false)
+const setOpen = () => (open.value = !open.value)
 </script>
 
 <style>
