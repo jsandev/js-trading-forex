@@ -7,7 +7,7 @@
         <RouterLink to="/" class="text-white text-[1.25rem] font-raleway font-bold">JS.</RouterLink>
       </div>
 
-      <button>
+      <button class="flex md:hidden">
         <Icon icon="fe:bar" width="24" color="white" />
       </button>
 
