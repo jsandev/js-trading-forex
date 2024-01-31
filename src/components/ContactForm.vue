@@ -34,7 +34,7 @@ const onSubmit = (e: Event) => {
     </div>
 
     <form @submit="onSubmit" class="w-full max-w-[25rem] flex flex-col items-center gap-[1.5rem]">
-      <h3 class="text-[1.25rem] text-primary">Envíenos tus dudas o comentarios</h3>
+      <h3 class="text-[1.25rem] text-primary text-center">Envíenos tus dudas o comentarios</h3>
       <div class="w-full flex flex-col gap-[1rem]">
         <input
           type="text"
