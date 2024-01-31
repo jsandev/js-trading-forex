@@ -10,10 +10,14 @@ const year = new Date().getFullYear()
     <div
       class="w-full max-w-[76.5rem] mx-auto flex flex-col gap-[8.25rem] pt-[4.125rem] px-[1.5rem] sm:px-[2rem] md:px-[3rem] lg:px-[4rem]"
     >
-      <div class="w-full flex items-start justify-between">
-        <div class="w-full max-w-[25rem] flex flex-col items-start gap-[0.75rem]">
+      <div
+        class="w-full flex flex-col items-center justify-between gap-[4rem] md:flex-row md:items-start md:gap-0"
+      >
+        <div class="w-full max-w-[25rem] flex flex-col items-center md:items-start gap-[0.75rem]">
           <RouterLink to="/" class="text-white text-[3rem] font-raleway font-bold">JS.</RouterLink>
-          <p class="font-raleway font-medium text-[0.875rem] text-white leading-[1.5rem]">
+          <p
+            class="font-raleway font-medium text-[0.875rem] text-white leading-[1.5rem] text-center md:text-left"
+          >
             Soy FullStack Developer con más de 4 años de experiencia en desarollo frontend, backend
             y mobile.
           </p>
@@ -46,27 +50,29 @@ const year = new Date().getFullYear()
           </div>
         </div>
 
-        <div class="flex flex-col items-start pt-[1.5rem]">
+        <div class="flex flex-col items-center md:items-start pt-[1.5rem]">
           <h4 class="text-[1.25rem] text-white">Contáctame:</h4>
-          <div class="flex flex-col gap-[0.75rem] mt-[2.25rem] mb-[1.5rem]">
+          <div
+            class="flex flex-col items-center md:items-start gap-[0.75rem] mt-[2.25rem] mb-[1.5rem]"
+          >
             <div
               class="flex items-center justify-start gap-[0.25rem] whitespace-nowrap text-white text-[0.875rem] font-raleway font-normal"
             >
               <Icon icon="mdi:phone" width="24" />
-              Llámame al:
+              <span class="hidden xs:inline-flex">Llámame al:</span>
               <a href="tel:+51923408455" class="font-quantify"> +51 923 408 455 </a>
             </div>
             <div
               class="flex items-center justify-start gap-[0.25rem] whitespace-nowrap text-white text-[0.875rem] font-raleway font-normal"
             >
               <Icon icon="mdi:email" width="24" />
-              Escríbeme al
+              <span class="hidden xs:inline-flex">Escríbeme al</span>
               <a href="mailto:jsandovaldev.pe@gmail.com" class="font-medium"
                 >jsandovaldev.pe@gmail.com</a
               >
             </div>
           </div>
-          <div class="flex items-center gap-[0.625rem]">
+          <div class="flex flex-col xs:flex-row items-center gap-[0.625rem]">
             <img class="cursor-pointer" src="../assets/images/play-store.webp" alt="Play Store" />
             <img class="cursor-pointer" src="../assets/images/app-store.webp" alt="App Store" />
           </div>
@@ -74,16 +80,16 @@ const year = new Date().getFullYear()
       </div>
 
       <div
-        class="w-full flex items-center justify-between py-[1.5rem] border-t-[1px] border-t-white/75"
+        class="w-full flex flex-col items-center gap-[1rem] justify-between py-[1.5rem] border-t-[1px] border-t-white/75 lg:flex-row lg:gap-0"
       >
-        <p class="font-raleway font-normal text-[0.75rem] text-white">
+        <p class="font-raleway font-normal text-[0.75rem] text-white text-center xs:text-left">
           © {{ year }}. Todos los derechos reservados. Desarrollado por
           <a href="https://portfolio-jsandev.vercel.app/" target="_blank" class="font-bold"
             >Jimmy Sandoval</a
           >
         </p>
 
-        <div class="flex items-center gap-[1rem]">
+        <div class="flex flex-col xs:flex-row items-center gap-[1rem]">
           <h6 class="font-raleway font-normal text-[0.75rem] text-white">Métodos de pago:</h6>
           <div class="flex items-center gap-[0.5rem]">
             <div class="w-[3rem] h-[2rem] rounded-[0.25rem] overflow-hidden">
