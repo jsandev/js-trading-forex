@@ -4,11 +4,11 @@
     :class="{ 'h-[320px] pb-[1.5rem]': open, 'h-0 p-0 md:h-auto': !open }"
   >
     <Link href="/" title="Inicio" />
-    <Link href="/" title="Quiénes somos" />
-    <Link href="/" title="Cursos" />
-    <Link href="/" title="Cómo funciona" />
-    <Link href="/" title="Features" />
-    <Link href="/" title="Contáctanos" />
+    <Link href="/#about-us" title="Quiénes somos" />
+    <Link href="/#courses" title="Cursos" />
+    <Link href="/#how-works" title="Cómo funciona" />
+    <Link href="/#features" title="Features" />
+    <Link href="/#contact-us" title="Contáctanos" />
 
     <SocialNetwork :icon-size="24" class-name="mt-[1.5rem] md:hidden" />
   </nav>

@@ -1,5 +1,6 @@
 <template>
   <section
+    id="about-us"
     class="w-full max-w-[76.5rem] mx-auto flex flex-col md:flex-row items-center justify-center gap-[4rem] md:gap-[6.25rem] pt-[26.875rem] pb-[5.3125rem] px-[1.5rem] sm:px-[2rem] md:px-[3rem] lg:px-[4rem]"
   >
     <div

@@ -1,5 +1,6 @@
 <template>
   <section
+    id="courses"
     class="w-full max-w-[76.5rem] mx-auto flex flex-col items-center gap-[5rem] py-[6.25rem] px-[1.5rem] sm:px-[2rem] md:px-[3rem] lg:px-[4rem]"
   >
     <div class="flex flex-col items-center gap-[1.25rem]">

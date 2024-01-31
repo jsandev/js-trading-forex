@@ -1,5 +1,6 @@
 <template>
   <section
+    id="features"
     class="w-full max-w-[76.5rem] mx-auto flex flex-col items-center gap-[7.5rem] pt-[8.75rem] pb-[7.5rem] px-[1.5rem] sm:px-[2rem] md:px-[3rem] lg:px-[4rem]"
   >
     <div class="flex flex-col items-center gap-[1rem]">
